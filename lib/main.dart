@@ -31,6 +31,7 @@ class MyApp extends StatelessWidget {
           create: (BuildContext context) =>AppCubit()..createDatabase(),
         )
       ],
+      //TodoApp
       child:MaterialApp(
         debugShowCheckedModeBanner: false,
         theme: lightTheme,
